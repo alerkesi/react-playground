@@ -1,0 +1,3 @@
+[submodule "src/autocomplete"]
+	path = src/autocomplete
+	url = https://github.com/alerkesi/autocomplete.git

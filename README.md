@@ -11,6 +11,15 @@ Git хранит информацию о submodules в файле .gitmodules (h
     url = https://github.com/alerkesi/autocomplete.git
 ```
 
+Чтобы склонировать основной репозиторий проделываем стандартную процедуру git clone. Чтобы "залить" все submodules
+в проекте выполняем следующие команды:
+
+```
+git submodule init
+git submodule update
+
+### Использование зависимостей из submodules
+
 Использование autocomplete происходит простым импортом исходного кода:
 ```typescript
 import {Autocomplete} from '../autocomplete/index';

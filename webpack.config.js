@@ -22,9 +22,8 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /\.(j|t)sx?$/,
-                include: path.resolve(__dirname, 'src/scripts'),
-                loader: 'awesome-typescript-loader'
+                test: /\.(t)sx?$/,
+                loaders: ['awesome-typescript-loader']
             }
         ]
     }

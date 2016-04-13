@@ -7,8 +7,7 @@
   "exclude": [
     "node_modules",
     "out",
-    "typings",
-    "**/typings"
+    "typings"
   ],
   "awesomeTypescriptLoaderOptions": {
     "useBabel": true

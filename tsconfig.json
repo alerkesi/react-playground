@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "jsx": "react",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules",
+    "out",
+    "typings"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": true
+  }
+}
